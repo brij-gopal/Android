@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:drawable/picture_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:typeface="monospace"
+        android:layout_margin="2dp"
+        android:text="date"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/text_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp" />
+    <TextView
+        android:typeface="serif"
+        android:text="description"
+        android:textSize="16sp"
+        android:id="@+id/text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_below="@id/text_view1"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:layout_below="@id/text_view2"
+        android:textStyle="bold"
+        android:text="temp"
+        android:textSize="24sp"
+        android:id="@+id/text_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_margin="2dp"/>
+    <ImageView
+        android:src="@drawable/clear_sky"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/img"
+        android:layout_alignParentRight="true"
+        android:layout_width="80dp"
+        android:layout_height="60dp" />
+
+
+
+        </RelativeLayout>
+
+
+
